@@ -1,0 +1,15 @@
+#Hello Python (Dice Roller)
+#Zoe DeGuzman
+
+import time #imports the time module
+from random import randint #can generate a random number, and specifies it to make sure it's an integer
+
+print ("Automatic Dice Roller") #tells the user what the program is, also makes sure it is running
+
+while True:
+	time.sleep(.25) #pause for 1/4 of a second so the pi doesn't overload from trying to print and process super quickly
+	repeat = input("Press enter to roll or x and enter to quit.") #instructions are printed for the user, and read as an input
+	if repeat == (""): #if the user presses enter, roll the die
+		print(randint(1,6)) #prints a random integer between 1 and 6
+	if repeat == ("x"): #if the user presses x and then enter,
+		exit() #exit the program 
