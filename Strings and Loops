@@ -1,0 +1,10 @@
+#Strings and Loops
+#Zoe DeGuzman
+
+string = str(input("Enter a sentence: ")) #user inputs a sentence
+string = string.replace(" ", "-") #replaces whitespaces with -
+string_list = list(string) #converts string to list
+string_list.append("-") #adds - at end
+
+for x in string_list: #prints all elements in the list
+    print(x)
