@@ -1,4 +1,4 @@
-#GPIO Pins Bash (LED Blink)
+#LED Blink
 #Zoe DeGuzman
 
 import RPi.GPIO as GPIO
